@@ -15,3 +15,8 @@ When this above HTML tag is pasted on a webpage, it should send a request to you
 server and fetch a javascript snippet. That javascript snippet should call an API on your ad
 server to fetch an image. That image should then be inserted inside the div with id given
 above.
+
+
+To run the node server use:"npm run dev".
+
+Open the "test.html" file to call the node server APIs.
