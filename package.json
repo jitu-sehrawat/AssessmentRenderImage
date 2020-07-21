@@ -1,0 +1,23 @@
+{
+  "name": "assssssss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test && node ./node_modules/.bin/mocha ./**/**/*.test.js",
+    "dev": "NODE_ENV=development node index.js",
+    "staging": "NODE_ENV=staging node index.js",
+    "prod": "NODE_ENV=production node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "custom-env": "^2.0.1",
+    "express": "^4.17.1",
+    "helmet": "^3.23.3"
+  }
+}
